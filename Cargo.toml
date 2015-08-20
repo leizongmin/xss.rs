@@ -2,3 +2,17 @@
 name = "xss"
 version = "0.1.0"
 authors = ["Zongmin Lei <leizongmin@gmail.com>"]
+
+repository = "https://leizongmin.github.io/xss.rs"
+homepage = "https://leizongmin.github.io/xss.rs"
+documentation = "https://leizongmin.github.io/xss.rs"
+
+description = "Sanitize untrusted HTML (to prevent XSS) with a configuration specified by a Whitelist"
+license = "MIT"
+
+[lib]
+name = "xss"
+path = "src/lib.rs"
+
+[dependencies.htmlstream]
+version = "*"

@@ -1,0 +1,12 @@
+[root]
+name = "xss"
+version = "0.1.0"
+dependencies = [
+ "htmlstream 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "htmlstream"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
